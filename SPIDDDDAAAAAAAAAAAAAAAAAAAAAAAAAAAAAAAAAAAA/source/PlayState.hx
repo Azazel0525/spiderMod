@@ -645,7 +645,7 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'spider':
 				dad.x -= 300;
-				dad.y += 30
+				dad.y += 30;
 		}
 
 		// REPOSITIONING PER STAGE

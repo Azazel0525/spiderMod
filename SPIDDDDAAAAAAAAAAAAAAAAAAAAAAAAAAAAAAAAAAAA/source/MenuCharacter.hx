@@ -31,7 +31,7 @@ class MenuCharacter extends FlxSprite
 		'mom' => new CharacterSetting(-30, 140, 0.85),
 		'parents-christmas' => new CharacterSetting(100, 130, 1.8),
 		'senpai' => new CharacterSetting(-40, -45, 1.4),
-		'spider' => new CharacterSetting(100, 130, 1.8)
+		'spider' => new CharacterSetting(3000, 3000, 1.8)
 	];
 
 	private var flipped:Bool = false;

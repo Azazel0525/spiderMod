@@ -384,10 +384,10 @@ class TitleState extends MusicBeatState
 			case 0:
 				deleteCoolText();
 			case 1:
-				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+				createCoolText(['Paegr', 'SergDraws', 'Arson', 'Groomk']);
 			// credTextShit.visible = true;
 			case 3:
-				addMoreText('present');
+				addMoreText('may be stupid');
 			// credTextShit.text += '\npresent...';
 			// credTextShit.addText();
 			case 4:
@@ -428,15 +428,16 @@ class TitleState extends MusicBeatState
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
 			case 13:
-				addMoreText('Friday');
+				addMoreText('Da');
 			// credTextShit.visible = true;
 			case 14:
-				addMoreText('Night');
+				addMoreText('Clock');
 			// credTextShit.text += '\nNight';
 			case 15:
-				addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
-
+				addMoreText('Spida'); // credTextShit.text += '\nFunkin';
 			case 16:
+				addMoreText('Mod');
+			case 17:
 				skipIntro();
 		}
 	}

@@ -411,12 +411,12 @@ class Stage
 						camZoom = 0.85;
 						curStage = 'clockworks';
 
-						var bg:FlxSprite = new FlxSprite(-450, -350);
+						var bg:FlxSprite = new FlxSprite(0, 150);
 						bg.frames = Paths.getSparrowAtlas('stages/clockworksBG', 'shared');
 						bg.animation.addByPrefix('idle', 'background 2 instance 1', 24);
 						bg.animation.play('idle');
 						bg.scrollFactor.set(0.8, 0.9);
-						bg.scale.set(6, 6);
+						bg.scale.set(2, 2);
 						swagBacks['bg'] = bg;
                         toAdd.push(bg);
 
